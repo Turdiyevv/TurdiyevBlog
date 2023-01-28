@@ -5,11 +5,6 @@
       <v-card width="100%" max-height="80px" class="d-flex" color="orange">
         <v-icon class="mr-2">mdi-account</v-icon>
         <v-list-item-subtitle>{{  }} {{  }}</v-list-item-subtitle>
-        <!-- <div>
-          <tr>
-            <td v-for="fio, index in Fio" :key="index">{{ fio }}</td>
-          </tr>
-        </div> -->
       </v-card>
     </v-card>
     <v-list dark class="table-hover">
@@ -58,10 +53,6 @@ export default {
   },
   props: {
     Fio: {},
-    // defineProps({
-    //   title: String,
-    //   likes: Number
-    // }){  }
   },
   methods: {
   },
